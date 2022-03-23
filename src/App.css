@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  width: 400px;
+  height: 690px;
+  margin: 0 auto;
+  margin-top: 100px;
+  border: 5px solid lightblue;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: cornsilk;
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.Menu button {
+  display: block;
+  margin: 100px;
+  width: 200px;
+  height: 50px;
+}
+
+.input {
+  width: 300px;
+  height: 50px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+}
+
+.info {
+  position: absolute;
+  left: 140px;
+  top: 40px;
+  line-height: 15px;
+  font-size: 15px;
+}
+
+input {
+  width: 80px;
+  height: 46px;
+  vertical-align: top;
+  font-size: 20px;
+  font-weight: 600;
+  float: right;
+  text-align: center;
+}
+
+.wrongInput {
+  text-align: center;
+  color: red;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.Game {
+  position: relative;
+}
+
+.exit {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: red;
+  right: 0;
+  top: 0;
+  line-height: 37px;
+  font-size: 30px;
+  font-weight: 600;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.exit:hover {
+  cursor: pointer;
+}
+
+.tab {
+  width: 400px;
+  height: 200px;
+  border-bottom: 5px solid lightblue;
+}
+
+.tab:last-child {
+  border-bottom: none;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 50px;
+  line-height: 100px;
+  vertical-align: top;
+  font-size: 100px;
+}
+
+.count {
+  width: 90px;
+  height: 90px;
+  display: inline-block;
+  margin: 50px;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 90px;
+  font-size: 30px;
+  border: 5px solid black;
+  font-weight: 600;
+  background-color: whitesmoke;
+}
+
+.player-more-options {
+  display: flex;
+  justify-content: space-around;
+}
+
+.player-more-options span {
+  line-height: 40px;
+}
+
+.player-more-options input {
+  height: 36px;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  margin-left: 25px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+  transition: background-color 1s;
+}
+
+button:hover {
+  background-color: #63c966;
+  cursor: pointer;
+}
+
+button:active {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 1);
+}
+
+button:focus {
+  outline: none;
+}
+
+.Result {
+  padding-top: 200px;
+  font-weight: 700;
+  position: relative;
+}
